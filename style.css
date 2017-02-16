@@ -1,13 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
 header {
-  background-color: #22B5E5
+  background-color: #22B5E5;
+  color: white;
+  padding: 1em;
+}
+
+nav {
+  float:right;
+}
+
+a {
+  color: white;
 }
 
 main {
   border: 1px solid black;
-  width: 25em;
+  width: 22em;
   float: left;
-  margin-top: 125px;
-  margin-right: 50px;
+  margin-top: 1.3em;
+  margin-right: 1em;
   display: block;
 }
 
@@ -30,20 +44,46 @@ article {
   margin: 2em;*/
 }
 
-h3 {
+h1 {
   margin: 0;
+  margin-top: .5em;
+  font-size: 1.8em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1em;
+}
+
+h3 {
+  margin-right: 10em;
   display: inline;
+  padding: 1em;
+  font-size: 1em;
 }
 
 p {
   margin: 0;
   display: inline;
-}
-
-h1 {
-  : 10px;
+  float: right;
+  font-size: 1em;
+  padding-right: .5em;
 }
 
 b {
-  float:right;
+  float:left;
 }
+
+.one {
+  padding: .5em;
+}
+
+/*.redbutton {
+  width: 1em;
+  height: 1em;
+  background-color: red;
+  border-radius: 50%;
+  text-align: right;
+  display: inline-block;
+  margin: 0;
+}*/
